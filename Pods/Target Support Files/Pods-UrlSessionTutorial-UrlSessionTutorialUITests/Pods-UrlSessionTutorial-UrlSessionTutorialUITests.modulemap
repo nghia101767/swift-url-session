@@ -1,0 +1,6 @@
+framework module Pods_UrlSessionTutorial_UrlSessionTutorialUITests {
+  umbrella header "Pods-UrlSessionTutorial-UrlSessionTutorialUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

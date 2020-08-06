@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_UrlSessionTutorial_UrlSessionTutorialUITests : NSObject
+@end
+@implementation PodsDummy_Pods_UrlSessionTutorial_UrlSessionTutorialUITests
+@end
