@@ -58,13 +58,13 @@ class SearchViewController: UIViewController {
         searchBar.resignFirstResponder()
     }
     func playDownload(_ track: Track){
-//        print("avplaying")
-//        let playerViewController = AVPlayerViewController()
-//        present(playerViewController, animated: true, completion: nil)
-//        let url = localPath(for: track.getUrl())
-//        let player = AVPlayer(url: url)
-//        playerViewController.player = player
-//        player.play()
+        print("avplaying")
+        let playerViewController = AVPlayerViewController()
+        present(playerViewController, animated: true, completion: nil)
+        let url = localPath(for: track.getUrl())
+        let player = AVPlayer(url: url)
+        playerViewController.player = player
+        player.play()
     }
 
 }
@@ -167,7 +167,7 @@ extension SearchViewController: TrackingCellDelegate{
         if let indexPath = tableView.indexPath(for: cell){
             let track = searchResult[indexPath.row]
             let destinationUrl = localPath(for: track.getUrl())
-            Sound.play(url: track.getUrl())
+            Sound.play(url: destinationUrl)
         }
     }
     
