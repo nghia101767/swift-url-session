@@ -10,15 +10,21 @@
 		1538E32A3F4A76812B9C7635 /* Pods_UrlSessionTutorial_UrlSessionTutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9719AD9460F46E088C87DE54 /* Pods_UrlSessionTutorial_UrlSessionTutorialUITests.framework */; };
 		4C4CADAC30C014B1D3DC4CBB /* Pods_UrlSessionTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B97C54509D8E33370F5AA2 /* Pods_UrlSessionTutorial.framework */; };
 		8A4EEE319B567E752869BC2B /* Pods_UrlSessionTutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1953ADB3669E941B898C50 /* Pods_UrlSessionTutorialTests.framework */; };
+		D51A74C824DC0F40008163CC /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A74C724DC0F40008163CC /* QueryService.swift */; };
+		D51A74CA24DC0F5A008163CC /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A74C924DC0F5A008163CC /* DownloadService.swift */; };
 		D535196024DBDB170079CC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D535195F24DBDB170079CC08 /* AppDelegate.swift */; };
 		D535196224DBDB170079CC08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D535196124DBDB170079CC08 /* SceneDelegate.swift */; };
-		D535196424DBDB170079CC08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D535196324DBDB170079CC08 /* ViewController.swift */; };
+		D535196424DBDB170079CC08 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D535196324DBDB170079CC08 /* SearchViewController.swift */; };
 		D535196724DBDB170079CC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D535196524DBDB170079CC08 /* Main.storyboard */; };
 		D535196A24DBDB170079CC08 /* UrlSessionTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D535196824DBDB170079CC08 /* UrlSessionTutorial.xcdatamodeld */; };
 		D535196C24DBDB170079CC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D535196B24DBDB170079CC08 /* Assets.xcassets */; };
 		D535196F24DBDB170079CC08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D535196D24DBDB170079CC08 /* LaunchScreen.storyboard */; };
 		D535197A24DBDB180079CC08 /* UrlSessionTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D535197924DBDB180079CC08 /* UrlSessionTutorialTests.swift */; };
 		D535198524DBDB180079CC08 /* UrlSessionTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D535198424DBDB180079CC08 /* UrlSessionTutorialUITests.swift */; };
+		D5E248AA24DC02DE00AC29ED /* TrackingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E248A924DC02DE00AC29ED /* TrackingCell.swift */; };
+		D5E248AD24DC080000AC29ED /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E248AC24DC080000AC29ED /* Track.swift */; };
+		D5E248AF24DC09B900AC29ED /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E248AE24DC09B900AC29ED /* ApiResponse.swift */; };
+		D5F8AF2E24DE4D2C00DB045A /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F8AF2D24DE4D2C00DB045A /* Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +54,12 @@
 		980DCAF14792BD5896662134 /* Pods-UrlSessionTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrlSessionTutorial.release.xcconfig"; path = "Target Support Files/Pods-UrlSessionTutorial/Pods-UrlSessionTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		D0B97C54509D8E33370F5AA2 /* Pods_UrlSessionTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrlSessionTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E0E499B0D1F947F5E7B2C3 /* Pods-UrlSessionTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrlSessionTutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-UrlSessionTutorialTests/Pods-UrlSessionTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D51A74C724DC0F40008163CC /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		D51A74C924DC0F5A008163CC /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 		D535195C24DBDB170079CC08 /* UrlSessionTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrlSessionTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D535195F24DBDB170079CC08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D535196124DBDB170079CC08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D535196324DBDB170079CC08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D535196324DBDB170079CC08 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D535196624DBDB170079CC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D535196924DBDB170079CC08 /* UrlSessionTutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UrlSessionTutorial.xcdatamodel; sourceTree = "<group>"; };
 		D535196B24DBDB170079CC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 		D535198024DBDB180079CC08 /* UrlSessionTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrlSessionTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D535198424DBDB180079CC08 /* UrlSessionTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionTutorialUITests.swift; sourceTree = "<group>"; };
 		D535198624DBDB180079CC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E248A924DC02DE00AC29ED /* TrackingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingCell.swift; sourceTree = "<group>"; };
+		D5E248AC24DC080000AC29ED /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		D5E248AE24DC09B900AC29ED /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		D5F8AF2D24DE4D2C00DB045A /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,13 +140,10 @@
 		D535195E24DBDB170079CC08 /* UrlSessionTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				D535195F24DBDB170079CC08 /* AppDelegate.swift */,
-				D535196124DBDB170079CC08 /* SceneDelegate.swift */,
-				D535196324DBDB170079CC08 /* ViewController.swift */,
-				D535196524DBDB170079CC08 /* Main.storyboard */,
-				D535196B24DBDB170079CC08 /* Assets.xcassets */,
-				D535196D24DBDB170079CC08 /* LaunchScreen.storyboard */,
-				D535197024DBDB170079CC08 /* Info.plist */,
+				D5E248A724DBF5F400AC29ED /* View Controllers */,
+				D5E248A624DBF5C100AC29ED /* Supporting Files */,
+				D5E248A524DBF5A600AC29ED /* Resources */,
+				D5E248A424DBF58800AC29ED /* Networking */,
 				D535196824DBDB170079CC08 /* UrlSessionTutorial.xcdatamodeld */,
 			);
 			path = UrlSessionTutorial;
@@ -158,6 +167,63 @@
 			path = UrlSessionTutorialUITests;
 			sourceTree = "<group>";
 		};
+		D5E248A424DBF58800AC29ED /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D51A74C724DC0F40008163CC /* QueryService.swift */,
+				D51A74C924DC0F5A008163CC /* DownloadService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D5E248A524DBF5A600AC29ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D535195F24DBDB170079CC08 /* AppDelegate.swift */,
+				D535196124DBDB170079CC08 /* SceneDelegate.swift */,
+				D535196524DBDB170079CC08 /* Main.storyboard */,
+				D535196B24DBDB170079CC08 /* Assets.xcassets */,
+				D535196D24DBDB170079CC08 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5E248A624DBF5C100AC29ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D535197024DBDB170079CC08 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5E248A724DBF5F400AC29ED /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5E248AB24DC07E700AC29ED /* Models */,
+				D5E248A824DC02B300AC29ED /* Cells */,
+				D535196324DBDB170079CC08 /* SearchViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D5E248A824DC02B300AC29ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D5E248A924DC02DE00AC29ED /* TrackingCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D5E248AB24DC07E700AC29ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5E248AC24DC080000AC29ED /* Track.swift */,
+				D5E248AE24DC09B900AC29ED /* ApiResponse.swift */,
+				D5F8AF2D24DE4D2C00DB045A /* Download.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EE4FC3D946C1AC69DD80B771 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +234,6 @@
 				D4E0E499B0D1F947F5E7B2C3 /* Pods-UrlSessionTutorialTests.debug.xcconfig */,
 				0BD90B2D3CDA3B1D760ED88A /* Pods-UrlSessionTutorialTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -183,6 +248,7 @@
 				D535195824DBDB170079CC08 /* Sources */,
 				D535195924DBDB170079CC08 /* Frameworks */,
 				D535195A24DBDB170079CC08 /* Resources */,
+				72AEECABC829415910CCE802 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +286,7 @@
 				D535197C24DBDB180079CC08 /* Sources */,
 				D535197D24DBDB180079CC08 /* Frameworks */,
 				D535197E24DBDB180079CC08 /* Resources */,
+				D0F19613AD1B7D42F4DB4C5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,6 +391,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		72AEECABC829415910CCE802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrlSessionTutorial/Pods-UrlSessionTutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrlSessionTutorial/Pods-UrlSessionTutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrlSessionTutorial/Pods-UrlSessionTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F19613AD1B7D42F4DB4C5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrlSessionTutorial-UrlSessionTutorialUITests/Pods-UrlSessionTutorial-UrlSessionTutorialUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UrlSessionTutorial-UrlSessionTutorialUITests/Pods-UrlSessionTutorial-UrlSessionTutorialUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UrlSessionTutorial-UrlSessionTutorialUITests/Pods-UrlSessionTutorial-UrlSessionTutorialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DEED6302BA8029A60E7A04DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,10 +476,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D535196424DBDB170079CC08 /* ViewController.swift in Sources */,
+				D535196424DBDB170079CC08 /* SearchViewController.swift in Sources */,
 				D535196024DBDB170079CC08 /* AppDelegate.swift in Sources */,
+				D5E248AA24DC02DE00AC29ED /* TrackingCell.swift in Sources */,
+				D5E248AF24DC09B900AC29ED /* ApiResponse.swift in Sources */,
+				D51A74C824DC0F40008163CC /* QueryService.swift in Sources */,
 				D535196A24DBDB170079CC08 /* UrlSessionTutorial.xcdatamodeld in Sources */,
 				D535196224DBDB170079CC08 /* SceneDelegate.swift in Sources */,
+				D5E248AD24DC080000AC29ED /* Track.swift in Sources */,
+				D51A74CA24DC0F5A008163CC /* DownloadService.swift in Sources */,
+				D5F8AF2E24DE4D2C00DB045A /* Download.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,7 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UrlSessionTutorial/Info.plist;
+				INFOPLIST_FILE = "UrlSessionTutorial/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,7 +678,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UrlSessionTutorial/Info.plist;
+				INFOPLIST_FILE = "UrlSessionTutorial/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
